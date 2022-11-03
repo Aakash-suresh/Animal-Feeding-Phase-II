@@ -20,7 +20,7 @@ To develop a animal feeding game-Phase-2 using unity engine with C#.
 ### Step 7: For all the animal prefabs and food in th inspector (below the  layer ) drop down the override option and choose apply all.
 
 ## Program:
-
+### Detect Collider:
 ```C#
 using System.Collections;
 using System.Collections.Generic;
@@ -47,6 +47,7 @@ public class DetectCollider : MonoBehaviour
 }
 
 ```
+### Spwan Manager:
 
 ```C#
 using System.Collections;
